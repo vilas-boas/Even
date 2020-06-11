@@ -1,0 +1,172 @@
+/*Limpando formatação*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*      TAGS        */
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #b6fad0;
+}
+
+
+a{
+    color:  white;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+hr{
+    color: #4cbb54;
+    margin-bottom: 10px;
+}
+
+
+/*      IDS     */
+#area-principal{
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    text-decoration: none;
+    padding: 10px;
+    color:  white;
+    margin: auto 10px;
+    font-size: 1.05em;
+}
+
+#area-menu a:hover{
+    background: white;
+    color: #259e60;
+    margin: auto 10px;
+}
+
+#area-menu, #area-rodape{
+    height: 200px;
+    background: #259e60;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+#area-rodape{
+    height: 100px;
+}
+
+/*     CLASSES      */
+div.menu{
+    text-align: center;
+    padding: 10px;
+}
+
+a.menu{
+    padding: 50px;
+}
+
+img.logo-imagem{
+    width: 170px;
+    margin: 10px 0px 5px 0px;
+}
+
+p.rodape{
+    margin: 25px;
+    display: inline-block;
+    text-align: justify;
+}
+
+p.texto-formulario, p.sobre-texto, ul.sobre-texto{
+    margin: 5px;
+    padding: 15px;
+}
+
+ul.sobre-texto{
+    margin-left: 20px;
+}
+
+div.esquerda{
+    width: 50%;
+    float: left;
+}
+
+div.direita{
+    width: 50%;
+    float: right;
+}
+
+div.limpar{
+    clear: both;
+}
+
+input.area-texto{
+    width: 90%;
+    height: 25px;
+}
+
+textarea.area-mensagem{
+    width: 90%; 
+}
+
+input.botao{
+    background: #259e60;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+img.tamanho-100{
+    width: 100%;
+}
+
+img.imagem-index{
+    width: 50%;
+}
+
+div.materia{
+    width: 80%;
+    margin: 20px auto;
+}
+
+div.area-servicos{
+    width: 90%;
+    margin: 20px auto;
+}
+
+a.link-index{
+    color: #259e60;
+}
+
+div.esquerda-servicos{
+    width: 25%;
+    float: left;
+}
+
+div.direita-servicos{
+    width: 70%;
+    float: right;
+}
+
+div.esquerda-index{
+    width: 48%;
+    float: left;
+}
+
+/*Página selecionada*/
+#index #area-menu a.index,
+#sobre #area-menu a.sobre,
+#servicos #area-menu a.servicos,
+#fale #area-menu a.fale{
+    background: #4cb956;
+    color: white;
+}
